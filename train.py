@@ -6,7 +6,7 @@ import argparse
 import time
 import os
 from six.moves import cPickle
-
+import tensorflow as tf
 
 parser = argparse.ArgumentParser(
                     formatter_class=argparse.ArgumentDefaultsHelpFormatter)
